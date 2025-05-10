@@ -1,4 +1,6 @@
+# Developer B ingin mengubah struktur
 # Developer A menambahkan fitur
+
 
 tasks = []
 
