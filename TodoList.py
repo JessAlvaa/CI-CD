@@ -1,4 +1,4 @@
-# To-Do List Sederhana
+# Developer A menambahkan fitur
 
 tasks = []
 
