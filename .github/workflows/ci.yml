@@ -3,10 +3,11 @@ name: Python CI
 on: [push, pull_request]
 
 jobs:
- build:
-runs-on: ubuntu-latest
-  steps:
-    - name: Checkout
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout source code
       uses: actions/checkout@v3
 
     - name: Setup Python
@@ -22,6 +23,6 @@ runs-on: ubuntu-latest
       run: |
         python -m py_compile TodoList.py
 
-    - name: Run Linter
+    - name: Run the Program
       run: |
-        python TodoList.py 
+        python TodoList.py < input.txt
