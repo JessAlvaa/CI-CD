@@ -25,4 +25,4 @@ jobs:
 
     - name: Run the Program
       run: |
-        python TodoList.py < input.txt
+        python TodoList.py 
